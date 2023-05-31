@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.css'
+import Menu from './Menu'
+import PicCard from './PicCard'
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<header className="App-header">
+				<div>
+					KASHIWA SATO{' '}
+					<span
+					// class="title effect-text"
+					// data-text="SAMURAI INC. TOKYO"
+					// data-reactid=".0.0.0.0.0.1"
+					// style="visibility: visible;"
+					>
+						SAMURAI INC. TOKYO
+					</span>
+				</div>
+				<div class="right">
+					<Menu />
+				</div>
+			</header>
+			<PicCard />
+		</div>
+	)
 }
 
-export default App;
+export default App
