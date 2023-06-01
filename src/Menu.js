@@ -3,51 +3,45 @@ import './App.css'
 export default function Menu() {
 	return (
 		<>
-			<div class="side-menu">
+			<div className="side-menu">
 				<ul>
-					<li class="current all">
-						<span class="effect-text" data-text="PROJECT">
+					<li className="title">
+						<span className="effect-text" data-text="PROJECT">
 							PROJECT
 						</span>
-						<div class="effect"></div>
 					</li>
-					<li class="line"></li>
-					<li class=" profile">
-						<span class="effect-text" data-text="PROFILE">
+					<li className="line"></li>
+					<li className="title">
+						<span className="effect-text" data-text="PROFILE">
 							PROFILE
 						</span>
-						<div class="effect"></div>
 					</li>
-					<li class="line"></li>
-					<li class=" contact">
-						<span class="effect-text" data-text="CONTACT">
+					<li className="line"></li>
+					<li className="title">
+						<span className="effect-text" data-text="CONTACT">
 							CONTACT
 						</span>
-						<div class="effect"></div>
 					</li>
 				</ul>
-				<div class="lang-switch">
-					<div class="lang-list">
+				<div className="lang-switch">
+					<div className="lang-list">
 						<ul>
-							<li>
-								<span class="effect-text" data-text="EN">
+							<li className="title">
+								<span className="effect-text" data-text="EN">
 									ENGLISH
 								</span>
-								<div class="effect"></div>
 							</li>
-							<li class="line"></li>
-							<li>
-								<span class="effect-text" data-text="JP">
+							<li className="line"></li>
+							<li className="title">
+								<span className="effect-text" data-text="JP">
 									JAPANESE
 								</span>
-								<div class="effect"></div>
 							</li>
-							<li class="line"></li>
-							<li>
-								<span class="effect-text" data-text="CS">
+							<li className="line"></li>
+							<li className="title">
+								<span className="effect-text" data-text="CS">
 									CHINESE
 								</span>
-								<div class="effect"></div>
 							</li>
 						</ul>
 					</div>
@@ -55,7 +49,7 @@ export default function Menu() {
 			</div>
 			<div id="search">
 				<input type="text" placeholder="PLEASE INPUT KEYWORD" />
-				<div class="button"></div>
+				<div className="button"></div>
 			</div>
 		</>
 	)
